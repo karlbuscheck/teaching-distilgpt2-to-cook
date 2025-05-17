@@ -2,7 +2,7 @@
 
 This notebook explores how to fine-tune a **transformer** for a custom text completion task -- specifically, we'll teach GPT-2 to generate full recipe instructions from just a list of ingredients.
 
-Before the world met ChatGPT, GPT-2 was already showing us what generative AI could do -- if we were paying attention. To learn more about this large language model, which was trained on 8 million web pages, check out the official model card on [Hugging Face https://huggingface.co/openai-community/gpt2.](https://huggingface.co/openai-community/gpt2)
+Before the world met ChatGPT, GPT-2 was already showing us what generative AI could do -- if we were paying attention. To learn more about this large language model, which was trained on 8 million web pages, check out the official model card on [Hugging Face](https://huggingface.co/openai-community/gpt2)
 
 View the full notebook right here:
 
