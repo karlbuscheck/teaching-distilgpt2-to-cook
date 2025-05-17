@@ -1,11 +1,11 @@
 # Recipe Generation with GPT-2
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1X0qB6o99g5L_YJ7Jp9HKzEWuPPn_64uz?usp=sharing)
-
-
 This notebook explores how to fine-tune a transformer for a custom text completion task -- specifically, we'll teach GPT-2 to generate full recipe instructions from just a list of ingredients.
 
 Before the world met ChatGPT, GPT-2 was already showing us what generative AI could do -- if we were paying attention. To learn more about this large language model, which was trained on 8 million web pages, check out the official model card on Hugging Face.
+
+View the full notebook right here:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1X0qB6o99g5L_YJ7Jp9HKzEWuPPn_64uz?usp=sharing)
 
 ## The Roadmap
 
