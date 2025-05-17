@@ -1,5 +1,3 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/karlbuscheck/teaching-gpt2-to-cook/blob/main/recipe_generation_gpt2.ipynb)
-
 # Recipe Generation with GPT-2
 
 This notebook explores how to fine-tune a transformer for a custom text completion task -- specifically, we'll teach GPT-2 to generate full recipe instructions from just a list of ingredients.
