@@ -5,6 +5,7 @@ This notebook explores how to fine-tune a transformer for a custom text completi
 Before the world met ChatGPT, GPT-2 was already showing us what generative AI could do -- if we were paying attention. To learn more about this large language model, which was trained on 8 million web pages, check out the official model card on Hugging Face.
 
 View the full notebook right here:
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1X0qB6o99g5L_YJ7Jp9HKzEWuPPn_64uz?usp=sharing)
 
 ## The Roadmap
@@ -16,7 +17,7 @@ Before we get cooking, here's a roadmap of what is to come:
 - Create a DataFrame and split it into training and test sets
 - Test the base model on a single sentence
 - Fine-tune the model using the recipe dataset
-- Evaluate the fine-tuned model's recipe writing skills
+- Evaluate the fine-tuned model's recipe-writing skills
 
 ## Tools & Libraries Used
 
