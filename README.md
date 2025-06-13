@@ -1,8 +1,8 @@
-# Recipe Generation with GPT-2
+# Recipe Generation with DistilGPT2
 
 This notebook explores how to fine-tune a **transformer** for a custom text completion task -- specifically, we'll teach GPT-2 to generate full recipes from a dataset of ingredient-instruction pairings.
 
-Before the world met ChatGPT, GPT-2 was already showing us what generative AI could do -- if we were paying attention. To learn more about this large language model, which was trained on 8 million web pages, check out the official model card on [Hugging Face](https://huggingface.co/openai-community/gpt2)
+Before the world met ChatGPT, GPT-2 was already showing us what generative AI could do -- if we were paying attention. To learn more about this large language model, which was trained on 8 million web pages, check out the official model card on [Hugging Face](https://huggingface.co/openai-community/gpt2). Or, the model card for [our streamlined version](https://huggingface.co/distilbert/distilgpt2), `distilgpt2`, for comparison.
 
 View the full notebook right here:
 
@@ -24,7 +24,7 @@ Before we get cooking, here's a roadmap of what is to come:
 - **Google Colab** — for free GPU access and seamless integration with Drive  
 - **Python 3.12.7** — base language for all modeling and data wrangling  
 - **pandas** — for reading and managing the dataset of 120K recipes  
-- **transformers** — Hugging Face's library for working with GPT-2 and custom fine-tuning  
+- **transformers** — Hugging Face's library for working with `distilgpt2` and custom fine-tuning  
 - **torch** — PyTorch backend powering the fine-tuning and inference  
 - **curl** — to download the custom training script from the course server  
 - **shutil** — for saving and exporting the fine-tuned model  
